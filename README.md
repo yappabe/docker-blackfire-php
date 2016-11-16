@@ -23,6 +23,7 @@ Eg: `image: yappabe/blackfire-php:7.0`
 The following PHP versions are available:
 
 * PHP 7.0 (jessie stable)
+* PHP 5.6 (jessie stable)
 
 ## Configurations
 
