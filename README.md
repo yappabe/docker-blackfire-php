@@ -12,6 +12,11 @@ php:
         - app
     links:
         - mysql
+    environment:
+        BLACKFIRE_SERVER_TOKEN: ${BLACKFIRE_SERVER_TOKEN}
+        BLACKFIRE_CLIENT_TOKEN: ${BLACKFIRE_CLIENT_TOKEN}
+        BLACKFIRE_SERVER_ID: ${BLACKFIRE_SERVER_ID}
+        BLACKFIRE_CLIENT_ID: ${BLACKFIRE_CLIENT_ID}
 ```
 
 ## PHP version
@@ -22,8 +27,7 @@ Eg: `image: yappabe/blackfire-php:7.0`
 
 The following PHP versions are available:
 
-* PHP 7.0 (jessie stable)
-* PHP 5.6 (jessie stable)
+* PHP 7.0, 7.1, 7.2, 7.3 (jessie stable)
 
 ## Configurations
 
